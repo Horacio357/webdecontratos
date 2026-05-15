@@ -11,16 +11,16 @@ export default function Navbar() {
         
         <div className="hidden md:flex items-center gap-8">
           <Link href="/" className="text-sm font-semibold text-foreground/60 hover:text-brand-blue transition-colors">Inicio</Link>
-          <Link href="/documentos" className="text-sm font-semibold text-foreground/60 hover:text-brand-blue transition-colors">Documentos</Link>
+          <Link href="/wizard" className="text-sm font-semibold text-foreground/60 hover:text-brand-blue transition-colors">Crear Contrato</Link>
           <Link href="/precios" className="text-sm font-semibold text-foreground/60 hover:text-brand-blue transition-colors">Precios</Link>
           <Link href="/faq" className="text-sm font-semibold text-foreground/60 hover:text-brand-blue transition-colors">FAQ</Link>
         </div>
 
         <div className="flex items-center gap-4">
-          <button className="text-sm font-bold text-foreground/60 hover:text-foreground transition-colors">Ingresar</button>
-          <button className="px-6 py-2.5 rounded-xl bg-brand-blue text-sm font-bold text-white hover:bg-blue-600 transition-all shadow-lg shadow-brand-blue/20">
-            Empezar gratis
-          </button>
+          <Link href="/dashboard" className="text-sm font-bold text-foreground/60 hover:text-foreground transition-colors">Mi Panel</Link>
+          <Link href="/precios" className="px-6 py-2.5 rounded-xl bg-gradient-to-r from-brand-blue to-brand-violet text-sm font-bold text-white hover:opacity-90 transition-all shadow-lg shadow-brand-blue/20">
+            Ser PRO
+          </Link>
         </div>
       </div>
     </nav>
